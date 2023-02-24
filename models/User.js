@@ -11,7 +11,7 @@ const UserSchema = new Schema({
   email: { type: String, unique: true, required: true },
   password: { type: String, required: true },
   role: { type: String, required: true },
-  listeInteraction: { type: Array, default: [] },
+  listInteraction: { type: Array, default: [] },
   listeMessagesEnvoye: { type: Array, default: [] },
   createdAt: { type: Date, default: Date.now },
   blocked: { type: Date, default: null },
