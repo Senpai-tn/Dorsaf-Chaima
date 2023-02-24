@@ -11,7 +11,7 @@ app.use(express.json())
 app.use('/etudiant', etudiantRouter)
 app.use('/user', userRouter)
 const port = 5000
-
+console.log('Git')
 mongoose
   .connect('mongodb://127.0.0.1:27017/PFE-Chaima-Dorsaf')
   .then(() => {})
