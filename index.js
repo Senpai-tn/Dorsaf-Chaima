@@ -12,7 +12,7 @@ app.use('/etudiant', etudiantRouter)
 app.use('/user', userRouter)
 const port = 5000
 console.log('Git')
-console.log('git dorsaf test')
+console.log('git dorsaf test 2')
 mongoose
   .connect('mongodb://127.0.0.1:27017/PFE-Chaima-Dorsaf')
   .then(() => {})
