@@ -4,17 +4,20 @@ const cors = require('cors')
 const Prof = require('./models/Prof')
 const userRouter = require('./routes/user')
 const etudiantRouter = require('./routes/etudiant')
+const coursRouter = require('./routes/cours')
 const app = express()
 app.use(cors())
 app.use(express.json())
 
 app.use('/etudiant', etudiantRouter)
 app.use('/user', userRouter)
+app.use('/cours', coursRouter)
 const port = 5000
-console.log('Git')
 mongoose
   .connect('mongodb://127.0.0.1:27017/PFE-Chaima-Dorsaf')
-  .then(() => {})
+  .then(() => {
+    console.log('connected to db')
+  })
   .catch((error) => {
     console.log(`Error : ${error.message}`)
   })
