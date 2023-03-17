@@ -16,6 +16,7 @@ const UserSchema = new Schema({
   createdAt: { type: Date, default: Date.now },
   blocked: { type: Date, default: null },
   deleted: { type: Date, default: null },
+  socketId: { type: String || null, default: null },
 })
 
 const User = mongoose.model('users', UserSchema)

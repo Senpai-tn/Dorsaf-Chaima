@@ -1,17 +1,13 @@
 const express = require('express')
 const { Etudiant } = require('../models/Etudiant')
 const Prof = require('../models/Prof')
+const bcrypt = require('bcrypt')
 const userRouter = express.Router()
 //127.0.0.1:5000/user/inscrire
 userRouter.post('/inscrire', async (req, res) => {
-  // const cin = req.body.cin
-  // const nom = req.body.nom
-  // const prenom = req.body.prenom
-  // const dateN = req.body.dateN
-  // const tel = req.body.tel
-  // const email = req.body.email
-  // const password = req.body.password
   const { cin, nom, prenom, dateN, tel, email, password, role } = req.body
+  var hashedPassword = await bcrypt.hash(password, 10)
+
   if (role) {
     const search = await Etudiant.find({ cin })
     if (search.length !== 0) {
@@ -24,7 +20,7 @@ userRouter.post('/inscrire', async (req, res) => {
         dateN,
         tel,
         email,
-        password,
+        password: hashedPassword,
         role: 'prof',
       })
       prof.save((error, savedProf) => {
@@ -45,7 +41,7 @@ userRouter.post('/inscrire', async (req, res) => {
         dateN,
         tel,
         email,
-        password,
+        password: hashedPassword,
         role: 'etudiant',
       })
       etudiant.save((error, savedProf) => {
@@ -61,7 +57,8 @@ userRouter.post('/connecter', async (req, res) => {
   const { cin, password } = req.body
   const search = await Etudiant.findOne({ cin })
   if (search !== null) {
-    if (password === search.password) {
+    var result = await bcrypt.compare(password, search.password)
+    if (result) {
       res.send(search)
     } else {
       res.send('mot de passe incorrecte')
@@ -69,7 +66,8 @@ userRouter.post('/connecter', async (req, res) => {
   } else {
     const search = await Prof.findOne({ cin })
     if (search !== null) {
-      if (password === search.password) {
+      var result = await bcrypt.compare(password, search.password)
+      if (result) {
         res.send(search)
       } else {
         res.send('mot de passe incorrecte')

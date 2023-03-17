@@ -1,13 +1,25 @@
 const express = require('express')
-const mongoose = require('mongoose')
-const cors = require('cors')
-const Prof = require('./models/Prof')
-const userRouter = require('./routes/user')
-const etudiantRouter = require('./routes/etudiant')
-const coursRouter = require('./routes/cours')
 const app = express()
+const http = require('http')
+const cors = require('cors')
+const { Server } = require('socket.io')
+const etudiantRouter = require('./routes/etudiant')
+const userRouter = require('./routes/user')
+const coursRouter = require('./routes/cours')
+const mongoose = require('mongoose')
+const { User } = require('./models/User')
+const { Etudiant } = require('./models/Etudiant')
+const Prof = require('./models/Prof')
 app.use(cors())
 app.use(express.json())
+const server = http.createServer(app)
+
+const io = new Server(server, {
+  cors: {
+    origin: '*', //* ==> all ip adress
+    methods: ['GET', 'POST'],
+  },
+})
 
 app.use('/etudiant', etudiantRouter)
 app.use('/user', userRouter)
@@ -22,6 +34,37 @@ mongoose
     console.log(`Error : ${error.message}`)
   })
 
-app.listen(port, () => {
-  console.log(`Application listenning on port ${port}`)
+io.on('connection', (client) => {
+  client.emit('getSocketId', { socketId: client.id })
+
+  client.on('setUser', async (data) => {
+    var user
+    if (data.userId === null) return
+    if (data.role === 'etudiant') {
+      user = await Etudiant.findById(data.userId)
+    } else {
+      user = await Prof.findById(data.userId)
+    }
+
+    if (user !== null) {
+      user.socketId = data.socketId
+      user.save((error, savedUser) => {})
+    }
+  })
+
+  client.on('send_message', (data) => {
+    //enregistrement du message dans la BD
+    if (data.idReciever.length === 0) {
+      io.emit('message_recieved', {
+        message: data.message,
+        nomSender: data.nomSender,
+        date: new Date(),
+        idSender: data.idSender,
+      })
+    }
+  })
+})
+
+server.listen(5000, () => {
+  console.log('SERVER RUNNING')
 })
