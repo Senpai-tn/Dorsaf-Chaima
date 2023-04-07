@@ -5,7 +5,9 @@ const Schema = mongoose.Schema
 
 const EtudiantSchema = new Schema({
   ...UserSchema.obj,
+  role: { type: String, default: 'ETUDIANT', required: true },
   listeCoursAchete: { type: Array, default: [] },
+  listeInteraction: { type: Array, default: [] },
 })
 
 const Etudiant = mongoose.model('etudiants', EtudiantSchema)

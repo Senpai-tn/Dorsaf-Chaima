@@ -1,0 +1,216 @@
+[
+  {
+    "id": 1,
+    "question": "npm create-react-app",
+    "answers": [
+      "npx create-react-app",
+      "npx create-react-app myReactApp",
+      "npm create-react-app myReactApp"
+    ],
+    "correctAnswer": "npx create-react-app myReactApp"
+  },
+  {
+    "id": 2,
+    "question": "What does myReactApp refer to in the following command?  class=\"jscolor\" style=\"color:black\">npx create-react-app myReactApp",
+    "answers": [
+      "A reference to an existing app",
+      "The name you want to use for the new app",
+      "The directory to create the new app in",
+      "The type of app to create"
+    ],
+    "correctAnswer": "The name you want to use for the new app"
+  },
+  {
+    "id": 3,
+    "question": "What command is used to start the React local development server?",
+    "answers": ["npm run dev", "npm serve", "npm build", "npm start"],
+    "correctAnswer": "npm start"
+  },
+  {
+    "id": 4,
+    "question": "What is the default local host port that a React development server uses?",
+    "answers": ["3500", "3000", "8080", "5000"],
+    "correctAnswer": "3000"
+  },
+  {
+    "id": 5,
+    "question": "To develop and run React code, Node.js is required.",
+    "answers": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 6,
+    "question": "What type of element will be rendered from the following code? class=\"jscolor\" style=\"color:black\">class=\"jskeywordcolor\" style=\"color:mediumblue\">function Car() { class=\"jskeywordcolor\" style=\"color:mediumblue\">return <h1>Ford Mustang</h1>;} ReactDOM.class=\"jspropertycolor\" style=\"color:black\">render</span>(<Car />, document.class=\"jspropertycolor\" style=\"color:black\">getElementById(class=\"jsstringcolor\" style=\"color:brown\">'root'));",
+    "answers": ["h1", "ReactDom", "Component", "div"],
+    "correctAnswer": "h1"
+  },
+  {
+    "id": 7,
+    "question": "What is the children prop?",
+    "answers": [
+      "A property that lets you pass data to child components",
+      "A property that lets you set an object as a property",
+      "A property that adds child values to state",
+      "A property that lets you nest components in other components"
+    ],
+    "correctAnswer": "A property that lets you nest components in other components"
+  },
+  {
+    "id": 8,
+    "question": "Which keyword creates a constant in JavaScript?",
+    "answers": ["let", "var", "constant", "const"],
+    "correctAnswer": "const"
+  },
+  {
+    "id": 9,
+    "question": "A copy of the 'real' DOM that is kept in memory is called what?",
+    "answers": ["Shadow DOM", "React DOM", "DOM", "Virtual DOM"],
+    "correctAnswer": "Virtual DOM"
+  },
+  {
+    "id": 10,
+    "question": "React component names must begin with an uppercase letter.",
+    "answers": ["False", "True"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 11,
+    "question": "Which operator can be used to conditionally render a React component?",
+    "answers": ["::", "||", "&&", "??"],
+    "correctAnswer": "&&"
+  },
+  {
+    "id": 12,
+    "question": "When rendering a list using the JavaScript map() method, what is required for each element rendered?",
+    "answers": ["key", "id", "index", "data"],
+    "correctAnswer": "key"
+  },
+  {
+    "id": 13,
+    "question": "What tool does React use to compile JSX?",
+    "answers": ["ReactDOM", "Babel", "React Router", "JSX Compiler"],
+    "correctAnswer": "Babel"
+  },
+  {
+    "id": 14,
+    "question": "How can you optimze performance for a function component that always renders the same way?",
+    "answers": [
+      "Use the useMemo Hook.",
+      "Wrap it in the React.memo higher-order component.",
+      "Use the useReducer Hook.",
+      "Use the shouldComponentUpdate lifecycle method."
+    ],
+    "correctAnswer": "Wrap it in the React.memo higher-order component."
+  },
+  {
+    "id": 15,
+    "question": "What props will be available to the following component?class=\"jscolor\" style=\"color:black\"><Car {.class=\"jspropertycolor\" style=\"color:black\">.class=\"jspropertycolor\" style=\"color:black\">.class=\"jspropertycolor\" style=\"color:black\">props</span>} />",
+    "answers": [
+      "only static ones",
+      "only updated ones",
+      "children",
+      "all of them"
+    ],
+    "correctAnswer": "all of them"
+  },
+  {
+    "id": 16,
+    "question": "What is a common use case for ref?",
+    "answers": [
+      "To refer to a function",
+      "To directly access a DOM node",
+      "To bind the function",
+      "To refer to another JavaScript file"
+    ],
+    "correctAnswer": "To directly access a DOM node"
+  },
+  {
+    "id": 17,
+    "question": "How can you combine the following arrays using the spread operator?  class=\"jscolor\" style=\"color:black\">class=\"jskeywordcolor\" style=\"color:mediumblue\">const array1 = [class=\"jsnumbercolor\" style=\"color:red\">1, class=\"jsnumbercolor\" style=\"color:red\">2, class=\"jsnumbercolor\" style=\"color:red\">3];class=\"jskeywordcolor\" style=\"color:mediumblue\">const array2 = [class=\"jsnumbercolor\" style=\"color:red\">4, class=\"jsnumbercolor\" style=\"color:red\">5, class=\"jsnumbercolor\" style=\"color:red\">6];",
+    "answers": [
+      "const combined = [...array1, ...array2];",
+      "const combined = ...array1 + ...array2;",
+      "const combined = [array1, array2];",
+      "const combined = array1 + array2;"
+    ],
+    "correctAnswer": "const combined = [...array1, ...array2];"
+  },
+  {
+    "id": 18,
+    "question": "React can only render elements in the root document element.",
+    "answers": ["False", "True"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 19,
+    "question": "What is the correct syntax to import a Component from React?",
+    "answers": [
+      "import Component from 'react'",
+      "import { Component } from 'react'",
+      "import { Component } from 'react'",
+      "import [ Component ] from 'react'"
+    ],
+    "correctAnswer": "import { Component } from 'react'"
+  },
+  {
+    "id": 20,
+    "question": "Find the bug in this code:  class=\"jscolor\" style=\"color:black\">class=\"jskeywordcolor\" style=\"color:mediumblue\">function car({make, model}) {class=\"jskeywordcolor\" style=\"color:mediumblue\">return <h1>{make} {model}</h1>;};",
+    "answers": [
+      "Add parenthesis around the return value",
+      "The first letter of the function must be capitalized",
+      "Remove the return statement",
+      "Wrap the return in a fragment"
+    ],
+    "correctAnswer": "The first letter of the function must be capitalized"
+  },
+  {
+    "id": 21,
+    "question": "React separates the user interface into components. How are components combinded to create a user interface?",
+    "answers": [
+      "By putting them in a folder structure",
+      "With webpack",
+      "By nesting components",
+      "With code splitting"
+    ],
+    "correctAnswer": "By nesting components"
+  },
+  {
+    "id": 22,
+    "question": "Although React Hooks generally replace class components, there are no plans to remove classes from React.",
+    "answers": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is NOT a rule for React Hooks?",
+    "answers": [
+      "Hooks cannot be conditional",
+      "Hooks can only be called inside React Function components",
+      "Hooks can be called in Class or Function components",
+      "Hooks can only be called at the top level of a component"
+    ],
+    "correctAnswer": "Hooks can be called in Class or Function components"
+  },
+  {
+    "id": 24,
+    "question": "What is the output of the following code?  class=\"jscolor\" style=\"color:black\">class=\"jskeywordcolor\" style=\"color:mediumblue\">const make = class=\"jsstringcolor\" style=\"color:brown\">'Ford';class=\"jskeywordcolor\" style=\"color:mediumblue\">const model = class=\"jsstringcolor\" style=\"color:brown\">'Mustang';class=\"jskeywordcolor\" style=\"color:mediumblue\">const car = { make, model };console.class=\"jspropertycolor\" style=\"color:black\">log(car);",
+    "answers": [
+      "{{make: 'Ford', model: 'Mustang'}}",
+      "{make: 'Ford', model: 'Mustang'}",
+      "{car: {make: 'Ford', model: 'Mustang'}}",
+      "{car: 'Ford', car: 'Mustang'}}"
+    ],
+    "correctAnswer": "{make: 'Ford', model: 'Mustang'}"
+  },
+  {
+    "id": 25,
+    "question": "Why should you avoid copying the values of props into a component's state?",
+    "answers": [
+      "Because that would create two instances of the same state that could become out of sync",
+      "Because you should never mutate state",
+      "Because prop values cannot be stored in state",
+      "Because you want to allow data to flow back up to the parent"
+    ],
+    "correctAnswer": "Because that would create two instances of the same state that could become out of sync"
+  }
+]

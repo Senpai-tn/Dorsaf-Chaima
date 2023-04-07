@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "What is a correct syntax to output \"Hello World\" in Java?",
+    "answers": [
+      "System.out.println(\"Hello World\");",
+      "echo(\"Hello World\");",
+      "Console.WriteLine(\"Hello World\");",
+      "print (\"Hello World\");"
+    ],
+    "correctAnswer": "System.out.println(\"Hello World\");"
+  },
+  {
+    "id": 2,
+    "question": "Java is short for \"JavaScript\".",
+    "answers": ["False", "True"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 3,
+    "question": "How do you insert COMMENTS in Java code?",
+    "answers": [
+      "// This is a comment",
+      "/* This is a comment",
+      "# This is a comment"
+    ],
+    "correctAnswer": "// This is a comment"
+  },
+  {
+    "id": 4,
+    "question": "Which data type is used to create a variable that should store text?",
+    "answers": ["Txt", "string", "myString", "String"],
+    "correctAnswer": "String"
+  },
+  {
+    "id": 5,
+    "question": "How do you create a variable with the numeric value 5?",
+    "answers": ["int x = 5;", "num x = 5", "x = 5;", "float x = 5;"],
+    "correctAnswer": "int x = 5;"
+  },
+  {
+    "id": 6,
+    "question": "How do you create a variable with the floating number 2.8?",
+    "answers": [
+      "float x = 2.8f;",
+      "x = 2.8f;",
+      "int x = 2.8f;",
+      "byte x = 2.8f"
+    ],
+    "correctAnswer": "float x = 2.8f;"
+  },
+  {
+    "id": 7,
+    "question": "Which method can be used to find the length of a string?",
+    "answers": ["length()", "getLength()", "len()", "getSize()"],
+    "correctAnswer": "length()"
+  },
+  {
+    "id": 8,
+    "question": "Which operator is used to add together two values?",
+    "answers": ["The & sign", "The * sign", "The + sign"],
+    "correctAnswer": "The + sign"
+  },
+  {
+    "id": 9,
+    "question": "The value of a string variable can be surrounded by single quotes.",
+    "answers": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 10,
+    "question": "Which method can be used to return a string in upper case letters?",
+    "answers": ["touppercase()", "tuc()", "toUpperCase()", "upperCase()"],
+    "correctAnswer": "toUpperCase()"
+  },
+  {
+    "id": 11,
+    "question": "Which operator can be used to compare two values?",
+    "answers": ["<>", "==", "=", "><"],
+    "correctAnswer": "=="
+  },
+  {
+    "id": 12,
+    "question": "To declare an array in Java, define the variable type with:",
+    "answers": ["()", "{}", "[]"],
+    "correctAnswer": "[]"
+  },
+  {
+    "id": 13,
+    "question": "Array indexes start with:",
+    "answers": ["1", "0"],
+    "correctAnswer": "0"
+  },
+  {
+    "id": 14,
+    "question": "How do you create a method in Java?",
+    "answers": ["methodName.", "methodName()", "methodName[]", "(methodName)"],
+    "correctAnswer": "methodName()"
+  },
+  {
+    "id": 15,
+    "question": "How do you call a method in Java?",
+    "answers": [
+      "methodName[];",
+      "(methodName);",
+      "methodName();",
+      "methodName;"
+    ],
+    "correctAnswer": "methodName();"
+  },
+  {
+    "id": 16,
+    "question": "Which keyword is used to create a class in Java?",
+    "answers": ["class()", "class", "className", "MyClass"],
+    "correctAnswer": "class"
+  },
+  {
+    "id": 17,
+    "question": "What is the correct way to create an object called myObj of MyClass?",
+    "answers": [
+      "class MyClass = new myObj();",
+      "MyClass myObj = new MyClass();",
+      "toUpperCase()",
+      "upperCase()"
+    ],
+    "correctAnswer": "MyClass myObj = new MyClass();"
+  },
+  {
+    "id": 18,
+    "question": "In Java, it is possible to inherit attributes and methods from one class to another.",
+    "answers": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 19,
+    "question": "Which method can be used to find the highest value of x and y?",
+    "answers": [
+      "Math.max(x,y)",
+      "Math.maxNum(x,y)",
+      "Math.largest(x,y)",
+      "Math.maximum(x,y)"
+    ],
+    "correctAnswer": "Math.max(x,y)"
+  },
+  {
+    "id": 20,
+    "question": "Which operator is used to multiply numbers?",
+    "answers": ["x", "#", "*", "%"],
+    "correctAnswer": "*"
+  },
+  {
+    "id": 21,
+    "question": "Which keyword is used to import a package from the Java API library?",
+    "answers": ["import", "package", "lib", "getlib"],
+    "correctAnswer": "import"
+  },
+  {
+    "id": 22,
+    "question": "How do you start writing an if statement in Java?",
+    "answers": ["if (x > y)", "if x > y then:", "if x > y:"],
+    "correctAnswer": "if (x > y)"
+  },
+  {
+    "id": 23,
+    "question": "How do you start writing a while loop in Java?",
+    "answers": [
+      "while x > y:",
+      "x > y while {",
+      "while x > y {",
+      "while (x > y)"
+    ],
+    "correctAnswer": "while (x > y)"
+  },
+  {
+    "id": 24,
+    "question": "Which keyword is used to return a value inside a method?",
+    "answers": ["break", "get", "return", "void"],
+    "correctAnswer": "return"
+  },
+  {
+    "id": 25,
+    "question": "Which statement is used to stop a loop?",
+    "answers": ["return", "stop", "exit", "break"],
+    "correctAnswer": "break"
+  }
+]

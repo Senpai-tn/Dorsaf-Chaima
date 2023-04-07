@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "answers": [
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "correctAnswer": "Hyper Text Markup Language"
+  },
+  {
+    "id": 2,
+    "question": "Who is making the Web standards?",
+    "answers": [
+      "Mozilla",
+      "The World Wide Web Consortium",
+      "Microsoft",
+      "Google"
+    ],
+    "correctAnswer": "The World Wide Web Consortium"
+  },
+  {
+    "id": 3,
+    "question": "Choose the correct HTML element for the largest heading:",
+    "answers": ["<heading>", "<h6>", "<h1>", "<head>"],
+    "correctAnswer": "<h1>"
+  },
+  {
+    "id": 4,
+    "question": "What is the correct HTML element for inserting a line break?",
+    "answers": ["<br>", "<lb>", "<break>"],
+    "correctAnswer": "<br>"
+  },
+  {
+    "id": 5,
+    "question": "What is the correct HTML for adding a background color?",
+    "answers": [
+      "<background>yellow</background>",
+      "<body bg=\"yellow\">",
+      "<body style=\"background-color:yellow;\">"
+    ],
+    "correctAnswer": "<body style=\"background-color:yellow;\">"
+  },
+  {
+    "id": 6,
+    "question": "Choose the correct HTML element to define important text",
+    "answers": ["<strong>", "<important>", "<b>", "<i>"],
+    "correctAnswer": "<strong>"
+  },
+  {
+    "id": 7,
+    "question": "Choose the correct HTML element to define emphasized text",
+    "answers": ["<em>", "<i>", "<italic>"],
+    "correctAnswer": "<em>"
+  },
+  {
+    "id": 8,
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "answers": [
+      "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "<a name=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+      "<a>http://www.w3schools.com</a>"
+    ],
+    "correctAnswer": "<a href=\"http://www.w3schools.com\">W3Schools</a>"
+  },
+  {
+    "id": 9,
+    "question": "Which character is used to indicate an end tag?",
+    "answers": ["*", "<", "/", "^"],
+    "correctAnswer": "/"
+  },
+  {
+    "id": 10,
+    "question": "What does HTML stand for?",
+    "answers": [
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "correctAnswer": "Hyper Text Markup Language"
+  },
+  {
+    "id": 11,
+    "question": "What does HTML stand for?",
+    "answers": [
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "correctAnswer": "Hyper Text Markup Language"
+  },
+  {
+    "id": 12,
+    "question": "Who is making the Web standards?",
+    "answers": [
+      "Mozilla",
+      "The World Wide Web Consortium",
+      "Microsoft",
+      "Google"
+    ],
+    "correctAnswer": "The World Wide Web Consortium"
+  },
+  {
+    "id": 13,
+    "question": "Choose the correct HTML element for the largest heading:",
+    "answers": ["<heading>", "<h6>", "<h1>", "<head>"],
+    "correctAnswer": "<h1>"
+  },
+  {
+    "id": 14,
+    "question": "What is the correct HTML element for inserting a line break?",
+    "answers": ["<br>", "<lb>", "<break>"],
+    "correctAnswer": "<br>"
+  },
+  {
+    "id": 15,
+    "question": "What is the correct HTML for adding a background color?",
+    "answers": [
+      "<background>yellow</background>",
+      "<body bg=\"yellow\">",
+      "<body style=\"background-color:yellow;\">"
+    ],
+    "correctAnswer": "<body style=\"background-color:yellow;\">"
+  },
+  {
+    "id": 16,
+    "question": "Choose the correct HTML element to define important text",
+    "answers": ["<strong>", "<important>", "<b>", "<i>"],
+    "correctAnswer": "<strong>"
+  },
+  {
+    "id": 17,
+    "question": "Choose the correct HTML element to define emphasized text",
+    "answers": ["<em>", "<i>", "<italic>"],
+    "correctAnswer": "<em>"
+  },
+  {
+    "id": 18,
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "answers": [
+      "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "<a name=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+      "<a>http://www.w3schools.com</a>"
+    ],
+    "correctAnswer": "<a href=\"http://www.w3schools.com\">W3Schools</a>"
+  },
+  {
+    "id": 19,
+    "question": "Which character is used to indicate an end tag?",
+    "answers": ["*", "<", "/", "^"],
+    "correctAnswer": "/"
+  },
+  {
+    "id": 20,
+    "question": "What does HTML stand for?",
+    "answers": [
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "correctAnswer": "Hyper Text Markup Language"
+  }
+]
