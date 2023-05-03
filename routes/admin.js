@@ -1,10 +1,8 @@
 const express = require('express')
-const path = require('path')
 const Admin = require('../models/Admin')
 const Cours = require('../models/Cours')
 const { Etudiant } = require('../models/Etudiant')
 const Prof = require('../models/Prof')
-var mongoose = require('mongoose')
 const adminRouter = express.Router()
 
 adminRouter.get('/users', async (req, res) => {
@@ -81,17 +79,20 @@ adminRouter.delete('/delete_user', async (req, res) => {
 adminRouter.delete('/delete_admin', async (req, res) => {
   const { adminId } = req.body
   const admin = await Admin.findById(adminId)
-  admin.delete(async (error) => {
-    if (error) {
-      res.status(400).send('error')
-    } else {
-      const etudiants = await Etudiant.find()
-      const profs = await Prof.find()
-      const admins = await Admin.find()
-      const users = [...etudiants, ...profs, ...admins]
-      res.send(users)
-    }
-  })
+
+  admin !== null
+    ? admin.delete(async (error) => {
+        if (error) {
+          res.status(400).send('error')
+        } else {
+          const etudiants = await Etudiant.find()
+          const profs = await Prof.find()
+          const admins = await Admin.find()
+          const users = [...etudiants, ...profs, ...admins]
+          res.send(users)
+        }
+      })
+    : res.status(404).send('not found')
 })
 
 adminRouter.put('/change_role', async (req, res) => {

@@ -148,6 +148,33 @@ userRouter.post('/reinitialiser', async (req, res) => {
   }
 })
 
+userRouter.put('/', async (req, res) => {
+  try {
+    const { profil } = req.body
+    user = null
+    if (profil.role === 'PROF') {
+      user = await Prof.findById(profil._id)
+    } else {
+      user = await Etudiant.findById(profil._id)
+    }
+    Object.assign(user, {
+      ...user,
+      nom: profil.nom || user.nom,
+      prenom: profil.prenom || user.prenom,
+      dateN: profil.dateN || user.dateN,
+      tel: profil.tel || user.tel,
+      email: profil.email || user.email,
+    })
+    user.save((e, saved) => {
+      if (e) {
+        res.status(400).send(e)
+      } else {
+        res.send(saved)
+      }
+    })
+  } catch (error) {}
+})
+
 //envoyer mail de confirmation
 userRouter.post('/', async (req, res) => {
   const { cin } = req.body

@@ -8,6 +8,7 @@ const userRouter = require('./routes/user')
 const coursRouter = require('./routes/cours')
 const adminRouter = require('./routes/admin')
 const quizRouter = require('./routes/quiz')
+const messagesRouter = require('./routes/messages')
 const mongoose = require('mongoose')
 const { User } = require('./models/User')
 const { Etudiant } = require('./models/Etudiant')
@@ -15,6 +16,7 @@ const Prof = require('./models/Prof')
 const path = require('path')
 const Admin = require('./models/Admin')
 const bcrypt = require('bcrypt')
+const Message = require('./models/Message')
 
 require('dotenv').config()
 app.use(cors())
@@ -33,6 +35,8 @@ app.use('/user', userRouter)
 app.use('/cours', coursRouter)
 app.use('/admin', adminRouter)
 app.use('/quiz', quizRouter)
+app.use('/messages', messagesRouter)
+app.set('socketio', io)
 const port = 5000
 
 app.use(express.static(path.join(__dirname, 'public')))
@@ -56,6 +60,7 @@ const createDefaultAdmin = async () => {
       nom: 'defaultAdmin',
       email: 'defaultAdmin@rira.com',
       password: hashedPassword,
+      role: 'SUPER_ADMIN',
     })
     defaultAdmin.save((err) => {
       if (err) {
@@ -87,6 +92,15 @@ io.on('connection', (client) => {
 
   client.on('send_message', (data) => {
     //enregistrement du message dans la BD
+    const message = new Message({
+      message: data.message,
+      nomSender: data.nomSender,
+      date: new Date(),
+      idSender: data.idSender,
+    })
+    message.save(async (error, savedMessage) => {
+      if (error) io.emit({ error: error.message })
+    })
     if (data.idReciever.length === 0) {
       io.emit('message_recieved', {
         message: data.message,
@@ -101,3 +115,5 @@ io.on('connection', (client) => {
 server.listen(port, () => {
   console.log('SERVER RUNNING ON PORT : ' + port)
 })
+
+module.exports = io

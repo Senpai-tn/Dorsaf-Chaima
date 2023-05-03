@@ -115,6 +115,9 @@ coursRouter.get('/:id', async (req, res) => {
 
 //react(like or dislike)
 coursRouter.patch('/', async (req, res) => {
+  var io = req.app.get('socketio')
+
+  io.emit('react', { action: 'like' })
   const { idCours, idEtudiant, action } = req.body
   const cours = await Cours.findById(idCours)
   cours.listeInteraction.push({ date: new Date(), idEtudiant, action })
@@ -128,10 +131,14 @@ coursRouter.patch('/', async (req, res) => {
       const result = await prof.save()
       const etudiant = await Etudiant.findById(idEtudiant)
 
-      etudiant.listeInteraction.push({ idCours, action, date: new Date() })
-      etudiant.save((errorProf, savedEtudiant) => {
-        if (errorProf) {
-          res.send(errorProf.message)
+      etudiant.listeInteraction.push({
+        cours: savedCours,
+        action,
+        date: new Date(),
+      })
+      etudiant.save((errorEtudiant, savedEtudiant) => {
+        if (errorEtudiant) {
+          res.send(errorEtudiant.message)
         } else res.send({ user: savedEtudiant, cours: savedCours })
       })
     }
