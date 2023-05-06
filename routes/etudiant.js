@@ -6,6 +6,7 @@ const etudiantRouter = express.Router()
 
 etudiantRouter.post('/acheter_cours', async (req, res) => {
   const { idCours, idEtudiant } = req.body
+
   const etudiant = await Etudiant.findById(idEtudiant)
   const cours = await Cours.findById(idCours)
   etudiant.listeCoursAchete.push({ cours, date: new Date() })
@@ -24,6 +25,8 @@ etudiantRouter.post('/acheter_cours', async (req, res) => {
         return coursProf._id.toString() == x._id ? x : coursProf
       })
       const result = await prof.save()
+      var io = req.app.get('socketio')
+      io.emit('achat', { cours, etudiant })
       res.send(savedEtudiant)
     }
   })

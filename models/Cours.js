@@ -13,6 +13,7 @@ const coursSchema = new Schema({
   listeAchat: { type: Array, default: [] },
   idProf: { type: String, required: true },
   deletedAt: { type: Date, default: null },
+  createdAt: { type: Date, default: Date.now },
 })
 
 const Cours = mongoose.model('courses', coursSchema)

@@ -162,4 +162,21 @@ adminRouter.post('/block', async (req, res) => {
   }
 })
 
+adminRouter.post('/restore_achat', async (req, res) => {
+  const { userId } = req.body
+  const user = await Etudiant.findById(userId)
+  if (user === null) {
+    res.status(404).send('user not found')
+  } else {
+    user.listeCoursAchete = []
+    user.save(async (error) => {
+      if (error) {
+        res.status(402).send(error)
+      } else {
+        res.send(user)
+      }
+    })
+  }
+})
+
 module.exports = adminRouter
