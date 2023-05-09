@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "What is Artificial Intelligence (AI)?",
+    "answers": [
+      " is a subset of machine learning that involves creating neural networks with multiple layers, which can learn and recognize patterns in large datasets.",
+      " is a branch of computer science that focuses on creating machines that can perform tasks that normally require human intelligence.",
+      "is a subset of AI that involves creating algorithms that can learn and improve from experience, without being explicitly programmed."
+    ],
+    "correctAnswer": "is a branch of computer science that focuses on creating machines that can perform tasks that normally require human intelligence."
+  },
+  {
+    "id": 2,
+    "question": "What is machine learning?",
+    "answers": [
+      "is a subset of AI that involves creating algorithms that can learn and improve from experience, without being explicitly programmed.",
+      "is a subset of AI that involves creating algorithms that can learn and improve from experience, without being explicitly programmed."
+    ],
+    "correctAnswer": "is a subset of AI that involves creating algorithms that can learn and improve from experience, without being explicitly programmed."
+  },
+  {
+    "id": 3,
+    "question": "Who are the pioneers of artificial intelligence?",
+    "answers": [
+      "Elon Musk and Steve Jobs",
+      "John McCarthy and Marvin Lee Minsky",
+      "Xavier Niel and Mounir Mahjoubi"
+    ],
+    "correctAnswer": "John McCarthy and Marvin Lee Minsky"
+  },
+  {
+    "id": 4,
+    "question": "What are concrete uses of AI?",
+    "answers": [
+      "To control the movements of individuals, direct air strikes, divert confidential data.",
+      "To have groceries delivered, to render court decisions, for the electoral count.",
+      "In telemedicine, autonomous driving, machine translation."
+    ],
+    "correctAnswer": "In telemedicine, autonomous driving, machine translation."
+  },
+  {
+    "id": 5,
+    "question": "What would be one of the areas concerned by the future law of robotics?",
+    "answers": [
+      "The protection of privacy and intellectual property",
+      "The fight against global warming",
+      "Health and Sport Law"
+    ],
+    "correctAnswer": "Privacy and Intellectual Property"
+  },
+  {
+    "id": 6,
+    "question": "In what decade does artificial intelligence appear?",
+    "answers": [" 1950", "1960", "1950"],
+    "correctAnswer": " 1950"
+  },
+  {
+    "id": 7,
+    "Question": "AI uses different sciences and knowledge. What are they?",
+    "answers": [
+      " Physics, chemistry, computer science, biology and mathematics.",
+      " Computer science, electronics, mathematics, neuroscience and cognitive science.",
+      "Social networks, computer science, digital sciences, philosophy, science and techniques of physical activities."
+    ],
+    "correctAnswer": "Computer science, electronics, mathematics, neuroscience and cognitive science."
+  },
+  {
+    "id": 8,
+    "question": "What is the term for the process of setting a price for a product or service?",
+    "answers": ["Pricing", "Sales", "Social Listening", "Marketing Metrics"],
+    "correctAnswer": "Pricing"
+  },
+  {
+    "id": 9,
+    "question": "Which country is the leading investor in AI?",
+    "answers": ["China", "The France", "The United States"],
+    "correctAnswer": " The United States "
+  },
+  {
+    "id": 10,
+    "question": "What do Asimov's laws say?",
+    "answers": [
+      "Economic principles concerning the data market",
+      "Policy principles for data protection",
+      "General ethical principles for the operation of robots"
+    ],
+    "correctAnswer": "General ethical principles for the operation of robots"
+  },
+  {
+    "id": 11,
+    "question": "What would be one of the areas concerned by the future law of robotics?",
+    "answers": [
+      "The Law of Health and Sport",
+      "The fight against global warming",
+      "Privacy and Intellectual Property"
+    ],
+    "correctAnswer": "Privacy and Intellectual Property"
+  },
+  {
+    "id": 12,
+    "question": "What is the objective for the European Union in terms of AI? :",
+    "answers": [
+      "Becoming the world leader in AI",
+      "Creating a European space and a single market for data",
+      "Developing a data-driven economy without a legal framework in order to develop a dynamic and sustainable economy"
+    ],
+    "correctAnswer": "Creating a European space and a single market for data"
+  },
+  {
+    "id": 13,
+    "question": "An intelligent system is a computer system that mimics or acts in all circumstances with the decision-making capabilities of a",
+    "answers": ["human expert", "Brand Identity"],
+    "correctAnswer": "human expert"
+  },
+  {
+    "id": 14,
+    "question": "Which approach is not artificial intelligence?",
+    "answers": ["Act like humans", "Act intelligently", "Think like humans"],
+    "correctAnswer": "Act smart"
+  },
+  {
+    "id": 15,
+    "question": "What is the process of creating a message that resonates with a specific audience and motivates them to take action called?",
+    "answers": ["Brand Identity", "Message Development"],
+    "correctAnswer": "Message Development"
+  },
+  {
+    "id": 16,
+    "question": "Cognitive science is part of artificial intelligence?",
+    "answers": ["false", "true"],
+    "correctAnswer": " false "
+  },
+  {
+    "id": 17,
+    "question": "Does designing an agent that acts rationally mean that he?",
+    "answers": ["Works autonomously", "memorizes perceived states"],
+    "correctAnswer": " Works autonomously "
+  },
+  {
+    "id": 18,
+    "question": "What is the name of the workshop, organized in 1956, giving birth to AI?",
+    "answers": ["Mac Carty's Workshop", "Dartmouth's Workshop"],
+    "correctAnswer": " Dartmouth Workshop "
+  },
+  {
+    "id": 19,
+    "question": "Which discipline(s) are part of Artificial Intelligence?",
+    "answers": ["Robotics", "Expert Systems"],
+    "correctAnswer": "Robotics"
+  },
+  {
+    "id": 20,
+    "question": "Humanoids are:?",
+    "answers": ["Human-like robots", "Intelligent robots", "Human engineers"],
+    "correctAnswer": "Human-like robots"
+  }
+]

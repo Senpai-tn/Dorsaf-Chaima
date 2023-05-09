@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "question": "There are 15 boys and 10 girls in a class. If three students are selected at random, what is the probability that 1 girl and 2 boys are selected?",
+    "answers": [" 1/40", "21/46", "7/ 41"],
+    "correctAnswer": "21/46"
+  },
+  {
+    "id": 2,
+    "question": "Two friends Harish and Kalyan appeared for an exam. Let A be the event that Harish is selected and B is the event that Kalyan is selected. The probability of A is 2/5 and that of B is 3/7. Find the probability that both of them are selected.",
+    "answers": ["35/36", "5/35", "5/12", "6/35"],
+    "correctAnswer": "6/35"
+  },
+
+  {
+    "id": 3,
+    "question": " A card is drawn from a well shuffled pack of 52 cards. What is the probability of getting queen or club card?",
+    "answers": ["17/52", "4/13"],
+    "correctAnswer": "4/13"
+  },
+  {
+    "id": 4,
+    "question": "16 persons shake hands with one another in a party. How many shake hands took place?",
+    "answers": ["124", "120"],
+    "correctAnswer": "120"
+  },
+  {
+    "id": 5,
+    "question": " 2 dice are thrown simultaneously. What is the probability that the sum of the numbers on the faces is divisible by either 3 or 5?",
+    "answers": [" 19/36", " 7/36"],
+    "correctAnswer": "19/36"
+  },
+  {
+    "id": 6,
+    "question": "Daniel speaks truth in 2/5 cases and Sherin lies in 3/7cases. What is the percentage of cases in which both Daniel and Sherin contradict each other in stating a fact?",
+    "answers": ["72.6%", "51.4%"],
+    "correctAnswer": "collecting"
+  },
+  {
+    "id": 7,
+    "question": "Bag A contains 3 green and 7 blue balls. While bag B contains 10 green and 5 blue balls. If one ball is drawn from each bag, what is the probability that both are green?",
+    "answers": ["1/5", "1/3"],
+    "correctAnswer": "1/5"
+  },
+  {
+    "id": 8,
+    "question": "Ram and Shyam are playing chess together. Ram knows the two rows in which he has to put all the pieces in but he doesnt know how to place them. What is the probability that he puts all the pieces in the right place?",
+    "answers": ["8!/(2*15!)", " (2*8!)/16!"],
+    "correctAnswer": "8!/(2*15!)"
+  },
+  {
+    "id": 9,
+    "question": "The arithmetic mean is 25 and all the sum of observations is 350 then the number of observations are",
+
+    "answers": ["sample event", "certain event"],
+
+    "correctAnswer": " certain event"
+  },
+  {
+    "id": 10,
+    "question": "A numerical description of the outcome of an experiment is called a ",
+
+    "answers": ["variance", "random variable "],
+    "correctAnswer": "  random variable "
+  },
+  {
+    "id": 11,
+    "question": " The arithmetic mean is 25 and all the sum of observations is 350 then the number of observations are",
+    "answers": ["14", "75"],
+    "correctAnswer": "14 "
+  },
+  {
+    "id": 12,
+    "question": "The numerical or descriptive measure which is associated with variable to describe entire population of statistical phenomenon is classified as",
+    "answers": ["mixer ", "parameter"],
+    "correctAnswer": "parameter"
+  },
+  {
+    "id": 13,
+    "question": "The standard deviation of first 50 natural numbers is",
+    "answers": ["16.43", "14.43"],
+    "correctAnswer": "14.43"
+  },
+  {
+    "id": 14,
+    "question": "In standard normal probability distribution, the z-score of distribution will be zero if",
+    "answers": ["x = μ", "x > μ"],
+    "correctAnswer": "x = μ"
+  },
+  {
+    "id": 15,
+    "question": "o develop interval estimate of any parameter of population, the value which is added or subtracted from the point estimate is classified as ",
+    "answers": ["margin of biasedness", "margin of error"],
+    "correctAnswer": "margin of error"
+  },
+  {
+    "id": 16,
+    "question": "The type of graphical charts that allows user to make direct comparisons between various data sets are called",
+    "answers": ["multiple bar charts", "non paired data charts"],
+    "correctAnswer": "multiple bar charts"
+  },
+  {
+    "id": 17,
+    "question": "If the value of λ is 9 and value of random variable x is 5 then the value of z-score is",
+    "answers": ["-2.58 ", "-1.34"],
+    "correctAnswer": "-1.34"
+  },
+  {
+    "id": 18,
+    "question": "The probability of the events must lie in the limits of",
+    "answers": ["zero to one ", "one to two"],
+    "correctAnswer": "zero to one"
+  },
+  {
+    "id": 19,
+    "question": "The arithmetic mean is 12 and the number of observations are 20 then the sum of all the values is",
+    "answers": [" 240", "1.667"],
+    "correctAnswer": "240 "
+  },
+  {
+    "id": 20,
+    "question": " Consider a set of observations whose mean is 14 and the mode of the same set of observations is 12 then the values of skewness around central value are ",
+    "answers": ["2", "1.667"],
+    "correctAnswer": "2"
+  }
+]

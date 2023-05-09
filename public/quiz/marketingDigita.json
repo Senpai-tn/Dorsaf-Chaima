@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "question": "What is the marketing mix made up of?",
+    "answers": [
+      " Advertising",
+      " Product, Price, Place, Promotion ",
+      "Branding"
+    ],
+    "correctAnswer": "Product, Price, Place, Promotion"
+  },
+  {
+    "id": 2,
+    "question": "What is the process of dividing a market into smaller groups of consumers with similar needs and characteristics called?",
+    "answers": ["The World Wide Web Consortium", "Segmentation", "Google"],
+    "correctAnswer": "Segmentation"
+  },
+  {
+    "id": 3,
+    "question": "What is the term for the unique value that a product or service provides to its customers?",
+    "answers": ["Value Proposition", "Advertising", "Product Development"],
+    "correctAnswer": "Value Proposition"
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between a brand and a product?",
+    "answers": [
+      " A brand is the identity and reputation of a product or company, while a product is the physical item being sold.",
+      "Advertising",
+      "Place (Distribution)"
+    ],
+    "correctAnswer": " A brand is the identity and reputation of a product or company, while a product is the physical item being sold."
+  },
+  {
+    "id": 5,
+    "question": "What is the process of creating and communicating a brand's identity and reputation called?",
+    "answers": ["Digital Marketing", " Content Marketing", "Branding"],
+    "correctAnswer": "Branding"
+  },
+  {
+    "id": 6,
+    "question": "What is the term for the process of creating and sending messages to potential customers to encourage them to purchase a product or service?",
+    "answers": [
+      " Advertising",
+      "Content Marketing",
+      "Branding",
+      "Digital Marketing"
+    ],
+    "correctAnswer": " Advertising"
+  },
+  {
+    "id": 7,
+    "question": "What is the process of designing and delivering a product to meet the needs and desires of a specific group of customers called?",
+    "answers": [" Product Development", " Brand Identity", "Segmentation"],
+    "correctAnswer": "Product Development"
+  },
+  {
+    "id": 8,
+    "question": "What is the term for the process of setting a price for a product or service?",
+    "answers": ["Pricing", "Sales", "Social Listening", "Marketing Metrics"],
+    "correctAnswer": "Pricing"
+  },
+  {
+    "id": 9,
+    "question": "What is the term for the process of making a product or service available to customers through distribution channels?",
+    "answers": [
+      "Social Listening",
+      "Sales",
+      " Place (Distribution)",
+      "Brand Identity"
+    ],
+    "correctAnswer": " Place (Distribution)"
+  },
+  {
+    "id": 10,
+    "question": "What is the process of identifying potential customers and creating strategies to convince them to purchase a product or service called?",
+    "answers": ["Brand Identity", "Advertising", "Sales"],
+    "correctAnswer": "Sales"
+  },
+  {
+    "id": 11,
+    "question": "What is the term for the process of building and maintaining relationships with customers to retain their loyalty and repeat business?",
+    "answers": [
+      "Marketing Metrics",
+      "Customer Relationship Management (CRM)",
+      "Marketing Campaign"
+    ],
+    "correctAnswer": "Customer Relationship Management (CRM)"
+  },
+  {
+    "id": 12,
+    "question": "What is the process of using social media and other online platforms to promote a product or service called?",
+    "answers": [
+      "Marketing Metrics",
+      "Digital Marketing",
+      " Brand Identity",
+      "Advertising"
+    ],
+    "correctAnswer": "Digital Marketing"
+  },
+  {
+    "id": 13,
+    "question": "What is the process of analyzing data to make informed marketing decisions called?",
+    "answers": ["Marketing Analytics", "Brand Identity"],
+    "correctAnswer": "Marketing Analytics"
+  },
+  {
+    "id": 14,
+    "question": "What is the process of creating and distributing valuable, relevant, and consistent content to attract and retain a specific audience called?",
+    "answers": ["Advertising", "Content Marketing", "Digital Marketing"],
+    "correctAnswer": "Content Marketing"
+  },
+  {
+    "id": 15,
+    "question": "What is the process of creating a message that resonates with a specific audience and motivates them to take action called?",
+    "answers": ["Brand Identity", "Message Development"],
+    "correctAnswer": "Message Development"
+  },
+  {
+    "id": 16,
+    "question": "What is the process of promoting a product or service through endorsements and other forms of paid advertising called?",
+    "answers": ["Brand Identity", "Marketing Metrics", " Influencer Marketing"],
+    "correctAnswer": " Influencer Marketing"
+  },
+  {
+    "id": 17,
+    "question": "What is the term for the visual elements that represent a brand, such as a logo, color scheme, and typography?",
+    "answers": ["Branding", " Brand Identity"],
+    "correctAnswer": " Brand Identity"
+  },
+  {
+    "id": 18,
+    "question": "What is the process of monitoring and responding to conversations about a brand on social media and other online platforms called?",
+    "answers": ["Branding", "Marketing Analytics", " Social Listening"],
+    "correctAnswer": " Social Listening"
+  },
+  {
+    "id": 19,
+    "question": "What is the term for the process of measuring the effectiveness of marketing strategies and tactics?",
+    "answers": ["Marketing Analytics", "Marketing Metrics"],
+    "correctAnswer": "Marketing Metrics"
+  },
+  {
+    "id": 20,
+    "question": "What is the process of creating and executing a plan to achieve a specific marketing objective called?",
+    "answers": ["Advertising", "Marketing Campaign", "Brand Identity"],
+    "correctAnswer": "Marketing Campaign"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "question": "What are the basic elements of a simple electrical circuit?",
+    "answers": [" An inductor", " An amplifier ", "A generator"],
+    "correctAnswer": "Merchants"
+  },
+  {
+    "id": 2,
+    "question": "What are they related to?",
+    "answers": ["By connecting cables", "By sensors", "By fuses"],
+    "correctAnswer": "By connection cables"
+  },
+  {
+    "id": 3,
+    "question": "What would happen if we swapped the + and - terminals of a generator connected to an electric motor?",
+    "answers": [
+      "The direction of rotation of the engine is reversed",
+      "The intensity of alternating current decreases",
+      "There is loss of energy"
+    ],
+    "correctAnswer": "The direction of rotation of the engine reverses"
+  },
+  {
+    "id": 4,
+    "question": "Which unit of the international system measures the intensity of electric current?",
+    "answers": [" The watt", "The ampere", "The volt"],
+    "correctAnswer": "The ampere"
+  },
+  {
+    "id": 5,
+    "question": "In the nineteenth century, who invented the first battery?",
+    "answers": ["Volta", "Voltère"],
+    "correctAnswer": "Volta"
+  },
+  {
+    "id": 6,
+    "question": "Which of these materials was/were present in the first pile that was invented?",
+    "answers": ["Copper", "Silver", "Cobalt"],
+    "correctAnswer": "Copper"
+  },
+  {
+    "id": 7,
+    "question": "This energy is measured in...",
+    "answers": [" Joules", " Volts "],
+    "correctAnswer": "Joules"
+  },
+  {
+    "id": 8,
+    "question": "What is the name of the device that measures the intensity of the current?",
+    "answers": [
+      "The voltmeter",
+      "The voltameter",
+      "The wattometer",
+      "The ammeter"
+    ],
+    "correctAnswer": "The ammeter"
+  },
+  {
+    "id": 9,
+    "question": "What is the name(s) that transform(s) the received energy into another form of energy?",
+    "answers": ["The disconnector", "The receiver", "The generator"],
+    "correctAnswer": " The receiver"
+  },
+  {
+    "id": 10,
+    "question": "What is electricity?",
+    "answers": [
+      " is a form of energy produced by the movement of electrons in a circuit.",
+      "is a form of energy produced by the movement of electrics in a circuit."
+    ],
+    "correctAnswer": "is a form of energy produced by the movement of electrons in a circuit."
+  },
+  {
+    "id": 11,
+    "question": "What is electric voltage?",
+    "answers": [
+      "Electric voltage is the difference in electric potential between two points in a circuit, expressed in volts (V).",
+      " is the flow of electrons in a circuit, expressed in amperes (A)."
+    ],
+    "correctAnswer": "Electric voltage is the difference in electrical potential between two points in a circuit, expressed in volts (V)."
+  },
+  {
+    "id": 12,
+    "question": "What is electrical resistance?",
+    "answers": [
+      "Electrical resistance is the measure of the opposition of a material to the flow of electricity, expressed in ohms (Ω).",
+      " is an electric current whose direction changes periodically over time."
+    ],
+    "correctAnswer": "Electrical resistance is the measure of a material's opposition to the flow of electricity, expressed in ohms (Ω)."
+  },
+  {
+    "id": 13,
+    "question": "What is Ohm's law?",
+    "answers": [
+      "states that the voltage in a circuit is equal to the product of the electrical current by the electrical resistance.",
+      "is an electric current whose direction changes periodically over time."
+    ],
+    "correctAnswer": "states that the voltage in a circuit is equal to the product of the electrical current by the electrical resistance."
+  },
+  {
+    "id": 14,
+    "question": "What is electrical energy?",
+    "answers": [
+      "is the energy produced or consumed by an electrical appliance, expressed in joules (J) or kilowatt hours (kWh).",
+      "is a device that converts mechanical energy into electrical energy."
+    ],
+    "correctAnswer": "is the energy produced or consumed by an electrical appliance, expressed in joules (J) or kilowatt hours (kWh)."
+  },
+  {
+    "id": 15,
+    "question": "What is an electric motor?",
+    "answers": [
+      "is a device that converts electrical energy into mechanical energy.",
+      "is a protective device that interrupts electric current in the event of an overload or short circuit in an electrical circuit."
+    ],
+    "correctAnswer": "is a device that converts electrical energy into mechanical energy."
+  },
+
+  {
+    "id": 16,
+    "question": "What is a circuit breaker?",
+    "answers": [
+      "is a protective device which interrupts electric current in the event of an overload or short circuit in an electrical circuit.",
+      " is a device that converts electrical energy into mechanical energy."
+    ],
+    "correctAnswer": " is a protective device that interrupts electric current in the event of an overload or short circuit in an electrical circuit."
+  },
+  {
+    "id": 17,
+    "question": "What is grounding?",
+    "answers": [
+      " is the connection of an electrical circuit to the Earth to ensure the safety of people and property.",
+      " is a protective device which interrupts electrical current in the event of an overload or short circuit in an electrical circuit."
+    ],
+    "correctAnswer": "is the connection of an electrical circuit to the Earth to ensure the safety of people and property."
+  },
+  {
+    "id": 18,
+    "question": "What is an electrical transformer?",
+    "answers": [
+      "is a device that converts the electrical voltage of a circuit into another electrical voltage, either higher or lower.",
+      "is a device that converts electrical energy into mechanical energy."
+    ],
+    "correctAnswer": " is a device that converts the electrical voltage of a circuit into another electrical voltage, either higher or lower."
+  },
+  {
+    "id": 19,
+    "question": "What is electrical energy?",
+    "answers": [
+      "is a device that converts the electrical voltage of a circuit into another electrical voltage, either higher or lower.",
+      "is the energy produced or consumed by an electrical appliance, expressed in joules (J) or kilowatt hours (kWh)."
+    ],
+    "correctAnswer": "is the energy produced or consumed by an electrical appliance, expressed in joules (J) or kilowatt hours (kWh)."
+  },
+  {
+    "id": 20,
+    "question": "What is direct current?",
+    "answers": [
+      "states that the voltage in a circuit is equal to the product of the electrical current by the electrical resistance.",
+      "is an electric current whose direction does not change with time."
+    ],
+    "correctAnswer": "is an electric current whose direction does not change over time."
+  }
+]

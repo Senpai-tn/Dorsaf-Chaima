@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "question": "Which type of data Hadoop can deal with is",
+    "answers": [
+      "Structured",
+      "Semi structured",
+      "Unstructured",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "id": 2,
+    "question": "Which statement is false about Hadoop:",
+    "answers": [
+      " It runs with commodity hardware",
+      "It is a part of the Apache project sponsored by the ASF",
+      "It is best for real-time streaming of data",
+      "It can handle any type of data"
+    ],
+    "correctAnswer": "It is best for real-time streaming of data"
+  },
+
+  {
+    "id": 3,
+    "question": "Which of the following is component of Hadoop?",
+    "answers": ["YARN", " HDFS", " MapReduce", "All of the above"],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "id": 4,
+    "question": "Hadoop Framework is written in",
+    "answers": ["Python", "C++", "Java", "Scala"],
+    "correctAnswer": "Java"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is true about Hadoop?",
+    "answers": [
+      "Hadoop MapReduce processes the data at very low latency",
+      " Hadoop can't handle structured data",
+      "Hadoop is schema-less  we don't need to define a schema before writing the data",
+      "None of the above"
+    ],
+    "correctAnswer": "Hadoop is schema-less we don't need to define a schema before writing the data"
+  },
+  {
+    "id": 6,
+    "question": "Which one of the following is false about Hadoop?",
+    "answers": [
+      "It is a distributed framework",
+      " The main algorithm used in Hadoop is Map Reduce",
+      "Hadoop can work with commodity hardware",
+      " All are true"
+    ],
+    "correctAnswer": " All are true"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is the correct statement:",
+    "answers": [
+      "Data locality means moving computation to data instead of data to computation",
+      "Data locality means moving data to computation instead of computation to data",
+      "Both the above",
+      "None of the above"
+    ],
+    "correctAnswer": "Data locality means moving computation to data instead of data to computation"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following property gets configured on mapred-site.xml ?",
+    "answers": [
+      " Replication factor",
+      " Java Environment variables",
+      "Directory names to store hdfs files",
+      "Which framework to use with MapReduce jobs"
+    ],
+    "correctAnswer": "Which framework to use with MapReduce jobs"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is the daemon of Hadoop?",
+    "answers": [" NameNode", " Node manager", "DataNode", " All of the above "],
+
+    "correctAnswer": " All of the above"
+  },
+  {
+    "id": 10,
+    "question": "Which of the below component deals with ingesting streaming data into Hadoop?",
+    "answers": ["Flume", "Oozie", " Hive", "Kafka"],
+    "correctAnswer": " Flume"
+  },
+  {
+    "id": 11,
+    "question": "Apache Hadoop achieves reliability by replicating the data across multiple hosts, and hence does not require ______ storage on hosts.",
+    "answers": ["Filesystem", "RAID", "Local FS", "Operating system"],
+    "correctAnswer": " RAID"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following platforms does Apache Hadoop run on ?",
+    "answers": ["Bare metal", " Unix-like", "Cross-platform", "Debian"],
+    "correctAnswer": "Cross-platform"
+  },
+  {
+    "id": 13,
+    "question": "Hadoop works in",
+    "answers": [" worker/slave fashion", "master slave fashion"],
+    "correctAnswer": "master slave fashion"
+  },
+  {
+    "id": 14,
+    "question": "What license is Apache Hadoop distributed under?",
+    "answers": [
+      " Apache License 2.0",
+      "Shareware",
+      "Mozilla Public License",
+      "Commercial"
+    ],
+    "correctAnswer": "Apache License 2.0"
+  },
+  {
+    "id": 15,
+    "question": "The archive file created in Hadoop has the extension of ",
+
+    "answers": [".hrh", ".har", " .hrc", ".hrar"],
+    "correctAnswer": ".hrar"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following provides a real-time stream processing system",
+    "answers": [" Hive", "Solr", "Tez", " Spark"],
+    "correctAnswer": " Spark"
+  },
+  {
+    "id": 17,
+    "question": "All the files in a directory in HDFS can be merged together using which of the following?",
+    "answers": ["put merge", "get merge", "remerge", "merge all"],
+    "correctAnswer": "get merge"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is true about Hadoop?",
+    "answers": [
+      "HDFS Master (namenode) is the single point of failure",
+      " We cannot edit a file once written in HDFS"
+    ],
+    "correctAnswer": " We cannot edit a file once written in HDFS"
+  },
+  {
+    "id": 19,
+    "question": "Can multiple clients write into an HDFS file concurrently?",
+    "answers": ["Yes", "No"],
+    "correctAnswer": "No"
+  },
+  {
+    "id": 20,
+    "question": "Checkpoint node download the FsImage and EditLogs from the NameNode & then merge them & store the modified FsImage:",
+    "answers": ["Into persistent storage", "Back to the active NameNode"],
+    "correctAnswer": " Back to the active NameNode"
+  }
+]

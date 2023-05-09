@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "question": "What is the science of clouds called?",
+    "answers": ["Meteorology", "Physics", "Nephology"],
+    "correctAnswer": "Meteorology"
+  },
+  {
+    "id": 2,
+    "question": "Who proposed the nomenclature system of clouds?",
+    "answers": [" Edward Lorenz", "Lewis Fry Richardson", "Luke Howard"],
+    "correctAnswer": "Luke Howard"
+  },
+
+  {
+    "id": 3,
+    "question": "Who is the author of Meteorologica?",
+    "answers": ["Aristotle", " Pomponius Mela", " Al-Dinawari"],
+    "correctAnswer": "Aristotle"
+  },
+  {
+    "id": 4,
+    "question": "How many different physical forms based on the structure and process of formation do clouds assume?",
+    "answers": ["5", "4", "3"],
+    "correctAnswer": "5"
+  },
+  {
+    "id": 5,
+    "question": "What is the name given to a high-level, very thin, generally uniform stratiform genus-type of cloud, composed of ice-crystals?",
+    "answers": ["Stratus cloud", " Cirrostratus cloud", "Altrostatus cloud"],
+    "correctAnswer": "Cirrostratus cloud"
+  },
+  {
+    "id": 6,
+    "question": "At what altitude do stratus clouds form?",
+    "answers": [
+      "Between 3,000 and 4,000 meters",
+      " Between 2,000 and 3000 meters",
+      "Below 2,000 meters"
+    ],
+    "correctAnswer": " Below 2,000 meters"
+  },
+  {
+    "id": 7,
+    "question": "What is the appearance of a nimbostratus cloud?",
+    "answers": [
+      "Dark, widespread, formless layer",
+      "Horizontal layer",
+      "Sheet or layer, can usually see the sun through it"
+    ],
+    "correctAnswer": "Dark, widespread, formless layer"
+  },
+  {
+    "id": 8,
+    "question": "  In which atmosphere's layer do lenticular clouds form?",
+
+    "answers": [" Troposphere", "Stratosphere ", "Mesosphere"],
+    "correctAnswer": "Troposphere"
+  },
+  {
+    "id": 9,
+    "question": "What are Venus' thick clouds composed of?",
+
+    "answers": ["Sulfure dioxide ", " Carbon dioxide", "Ammonium hydrosulfide"],
+
+    "correctAnswer": " Sulfure dioxide"
+  },
+  {
+    "id": 10,
+    "question": "When and where are noctilucent clouds most often observed?",
+    "answers": [
+      "During the winter months from latitudes between 50° and 70° north and south of the Equator",
+      "During the summer months from latitudes between 30° and 50° north and south of the Equator",
+      "During the summer months from latitudes between 50° and 70° north and south of the Equator "
+    ],
+    "correctAnswer": " During the summer months from latitudes between 50° and 70° north and south of the Equator"
+  },
+  {
+    "id": 11,
+    "question": "What is the scientific name for cloudberry?",
+    "answers": [
+      "Rubus chamaemorus",
+      "Rubus spectabilis",
+      "Rubus conanicutensis "
+    ],
+    "correctAnswer": " Rubus chamaemorus"
+  },
+  {
+    "id": 12,
+    "question": "What are cloudberries called in England?",
+    "answers": ["Aqpik", " Nordic berry", "Knoutberry"],
+    "correctAnswer": "Knoutberry"
+  },
+  {
+    "id": 13,
+    "question": "In which country it is illegal to pick unripe cloudberries?",
+    "answers": [" Canada", "Finland", "Norway"],
+    "correctAnswer": "Norway"
+  },
+  {
+    "id": 14,
+    "question": "Which plant family does the cloudberry belong to?",
+    "answers": [" Dirachmaceae", "Barbeyaceae", "Rosaceae"],
+    "correctAnswer": "Rosaceae"
+  },
+  {
+    "id": 15,
+    "question": " What is cloudberry yogurt called in Norway? ",
+    "answers": ["Filmjölk", "Öresundsfil", "Multeyoughurt "],
+    "correctAnswer": "Multeyoughurt"
+  },
+  {
+    "id": 16,
+    "question": "What is the Norwegian name for the dessert cloudberry cream?",
+    "answers": ["Skyr", "Krumkake", "Multekrem"],
+    "correctAnswer": "Multekrem"
+  },
+  {
+    "id": 17,
+    "question": " What is the color of a ripe cloudberry?",
+    "answers": ["Light purple", "Bright red", "Golden-yellow"],
+    "correctAnswer": "Golden-yellow"
+  },
+  {
+    "id": 18,
+    "question": "What is the name of the Finnish liqueur made from cloudberry?",
+
+    "answers": ["Lakkalikööri", "Koskenkorva Viina", "Sima"],
+    "correctAnswer": " Lakkalikööri"
+  },
+  {
+    "id": 19,
+    "question": "Where does the water in clouds mostly come from?",
+    "answers": [" the sea", ": rivers"],
+    "correctAnswer": " the sea"
+  },
+  {
+    "id": 20,
+    "question": " Which clouds look like cotton wool? ",
+    "answers": [" Stratus", " Cumulus"],
+    "correctAnswer": ": Cumulus"
+  }
+]
