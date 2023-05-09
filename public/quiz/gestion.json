@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "question": "Are shops and bakeries merchant or non-market?",
+    "answers": [" It depends", " Merchants ", "Non-market"],
+    "correctAnswer": "Merchants"
+  },
+  {
+    "id": 2,
+    "question": "What does the NAF code mean?",
+    "answers": [
+      "Nomenclature of French activities",
+      "Standard of French activities",
+      "Nature of French activities"
+    ],
+    "correctAnswer": "Nomenclature of French activities"
+  },
+  {
+    "id": 3,
+    "question": "How many digits does the Siren number have?",
+    "answers": ["8", "9", "5"],
+    "correctAnswer": "9"
+  },
+  {
+    "id": 4,
+    "question": "Are hairdressers merchants or non-marketers?",
+    "answers": [" Non-market", "Merchants"],
+    "correctAnswer": "Merchants"
+  },
+  {
+    "id": 5,
+    "question": "What are the primary needs?",
+    "answers": [
+      "Food, shelter, shelter, healing",
+      "Food, entertainment, sports"
+    ],
+    "correctAnswer": "Food, shelter, shelter, healing"
+  },
+  {
+    "id": 6,
+    "question": "Concurrent management occurs when",
+    "answers": [
+      "The agreement and presence of both spouses is necessary to administer common property",
+      "Only a spouse has the power to administer his or her own property",
+      "Each spouse has the power to administer a common property alone"
+    ],
+    "correctAnswer": "Each spouse has the power to administer a common property alone"
+  },
+  {
+    "id": 7,
+    "question": "In principle, acts of disposal relating to furniture are subject to:",
+    "answers": [
+      " Joint management (co-management)",
+      "Concurrent management",
+      "Exclusive management"
+    ],
+    "correctAnswer": "Concurrent management"
+  },
+  {
+    "id": 8,
+    "question": "Which of these assertions, relating to the withdrawal and transfer of powers of a spouse over joint property (Article 1426 CCiv), is false?",
+    "answers": [
+      "The act performed by the authorized spouse is not enforceable against the spouse in possession",
+      "The competent judge is the family judge",
+      "The act performed by the authorized spouse binds only the latter",
+      "The spouse deprived of his powers over the common property no longer commits these funds"
+    ],
+    "correctAnswer": "The act performed by the authorized spouse is not enforceable against the spouse in possession"
+  },
+  {
+    "id": 9,
+    "question": "An act is said to be connective between spouses when",
+    "answers": [
+      "It engages the commons",
+      "It creates obligations towards both spouses",
+      "It was signed by both spouses"
+    ],
+    "correctAnswer": " It was signed by both spouses "
+  },
+  {
+    "id": 10,
+    "question": "Does a donation of a spouse's earnings and wages escape co-determination?",
+    "answers": [
+      "Yes, always",
+      "Yes, but only if they are not saved",
+      "No, never"
+    ],
+    "correctAnswer": "Yes, but only if they are not saved"
+  },
+  {
+    "id": 11,
+    "question": "In principle, can a spouse who decides to enter into an act subject to co-determination simply warn his or her spouse to make the act valid with regard to both spouses?",
+    "answers": [
+      "No, it requires express consent of both spouses",
+      "No, it requires the express or implied consent of both spouses",
+      "Yes, a simple warning is enough"
+    ],
+    "correctAnswer": "No, you need express or implied consent from both spouses"
+  },
+  {
+    "id": 12,
+    "question": "Can the donation of furniture escape co-determination?",
+    "answers": [
+      "Yes, thanks to the presumption of movable property governed by Article 222 CCiv",
+      "No, any donation of furniture or buildings is subject to co-management"
+    ],
+    "correctAnswer": "Yes, thanks to the presumption of movable property governed by Article 222 CCiv"
+  },
+  {
+    "id": 13,
+    "question": "What is the process of analyzing data to make informed marketing decisions called?",
+    "answers": ["Marketing Analytics", "Brand Identity"],
+    "correctAnswer": "Marketing Analytics"
+  },
+  {
+    "id": 14,
+    "Question": "Paul wants to make a legacy of a common good: he promises his wife Catherine that his legacy will not exceed his share in the community. Is he within his rights?",
+    "answers": [
+      "Yes",
+      "No, it is forbidden to bequeath a common goodNo, it is forbidden to bequeath a common good"
+    ],
+    "correctAnswer": "Yes"
+  },
+  {
+    "id": 15,
+    "question": "Which leases are subject to co-determination?",
+    "answers": [
+      "Commercial leases, rural leases, and residential leases relating to family housing",
+      "Rural leases and all residential leases"
+    ],
+    "correctAnswer": "Commercial leases, rural leases, and residential leases relating to family housing"
+  },
+  {
+    "id": 16,
+    "question": "In the context of an express mandate between spouses, must the mandatary spouse account for the fruits he has received from the other person's own property?",
+    "answers": [
+      "No, unless the mandate expressly requires it to do so",
+      "No, never,",
+      "Yes, always"
+    ],
+    "correctAnswer": "No, unless the mandate expressly requires it to do so"
+  },
+  {
+    "id": 17,
+    "question": "An act of disposition made by a spouse over the personal property of his spouse, without a mandate, is not enforceable against the latter.?",
+    "answers": ["Yes", "No, it is null and void"],
+    "correctAnswer": "No, it is null and void"
+  },
+  {
+    "id": 18,
+    "question": "As part of a withdrawal of power, Fabrice was authorized to administer the property of his wife Pauline.Can he still receive the fruits?",
+    "answers": [
+      "Yes, but only after joint agreement of the notary and the judge",
+      "Yes, in all cases",
+      "Yes, but only with Pauline's agreement"
+    ],
+    "correctAnswer": " Yes, in all hypotheses "
+  },
+  {
+    "id": 19,
+    "question": "Can a spouse consent to a donation of earnings and wages to his adulterous concubine, if these sums have not been saved?",
+    "answers": [
+      "Yes, but only if he has fulfilled the duties of the marriage",
+      "Yes, always",
+      "No, never"
+    ],
+    "correctAnswer": "Yes, but only if he has fulfilled the obligations of the marriage"
+  },
+  {
+    "id": 20,
+    "question": "Should the third party who received Lucie's property, by his deed of sale, return the property received, even though it is in good faith?",
+    "answers": [
+      "Yes",
+      "Marketing Campaign",
+      "No, only the third party in bad faith is obliged to return the property or its value"
+    ],
+    "correctAnswer": "No, only the third party in bad faith is obliged to return the property or its value"
+  }
+]

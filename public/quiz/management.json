@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "question": "Management is:?",
+    "answers": [
+      "the art of leading an organization to ensure its proper functioning",
+      "the art of advising leaders",
+      "The art of selling goods and servicesThe art of selling goods and services"
+    ],
+    "correctAnswer": "the art of leading an organization to ensure its proper functioning."
+  },
+  {
+    "id": 2,
+    "question": "Management includes 4 functions:",
+    "answers": [
+      "pilot / organize / direct / animate and mobilize",
+      "Communicate / Organize / Lead / Animate and Mobilize"
+    ],
+    "correctAnswer": "pilot / organize / direct / Animate and mobilize"
+  },
+  {
+    "id": 3,
+    "question": "Strategic management is part of",
+    "answers": ["the short term", "the medium term", "the long term"],
+    "correctAnswer": "the long term"
+  },
+  {
+    "id": 4,
+    "question": "Strategic decisions are?",
+    "answers": [
+      "easily reversible",
+      "difficult to reverse.",
+      "In telemedicine, autonomous driving, machine translation."
+    ],
+    "correctAnswer": "difficult to reverse"
+  },
+  {
+    "id": 5,
+    "question": "Operational management concerns:?",
+    "answers": [
+      "the short term / medium term",
+      " the medium term ",
+      "The short term"
+    ],
+    "correctAnswer": "the short term / medium term"
+  },
+  {
+    "id": 6,
+    "question": "A contingency factor are:?",
+    "answers": [
+      "internal and/or external elements to be taken into account as they may influence the decisions and actions of the organisation",
+      "people inside/outside the organization"
+    ],
+    "correctAnswer": "internal and/or external elements to be taken into account as they can influence the decisions and actions of the organization"
+  },
+  {
+    "id": 7,
+    "question": "Check the contingency factors that may be internal to the organization:?",
+    "answers": [" The size", " The growth of the country.", "The environment"],
+    "correctAnswer": "The size"
+  },
+  {
+    "id": 8,
+    "question": "Check the contingency factors that may be external to the organization:",
+    "answers": ["environment", "age", "size of organization"],
+    "correctAnswer": "the environment"
+  },
+  {
+    "id": 9,
+    "question": "CSR means: ?",
+    "answers": [
+      "Corporate Social Responsibility",
+      "Environmental Social Responsibility",
+      "Societal Resources of the Environment"
+    ],
+    "correctAnswer": "Corporate Social Responsibility"
+  },
+  {
+    "id": 10,
+    "question": "The stakeholders are:?",
+    "answers": [
+      "all internal and external actors who can directly or indirectly influence the decisions and actions of the organization",
+      "all internal and external elements that can directly or directly influence the decisions and actions of the organization"
+    ],
+    "correctAnswer": "all internal and external actors who can directly or indirectly influence the decisions and actions of the organization"
+  },
+  {
+    "id": 11,
+    "question": "Internal stakeholders are:",
+    "answers": [
+      "Employees / suppliers / Bank",
+      "Bank / employees / owners",
+      "employees / owners / management"
+    ],
+    "correctAnswer": "employees / owners / management"
+  },
+  {
+    "id": 12,
+    "question": "An emerging strategy is a strategy: ?",
+    "answers": [
+      "modifying the initial strategy and being necessary in the face of changes in the environment",
+      "planned and planned in advance"
+    ],
+    "correctAnswer": "modifying the initial strategy and being necessary in the face of changes in the environment"
+  },
+  {
+    "id": 13,
+    "question": "The management of production in high flows consists of:",
+    "answers": [
+      "forecasting demand and producing",
+      "produce according to orders received"
+    ],
+    "correctAnswer": "forecast demand and produce"
+  },
+  {
+    "id": 14,
+    "question": "Just-in-time production consists of:?",
+    "answers": [
+      "produce according to demand forecast",
+      "produce according to orders received"
+    ],
+    "correctAnswer": "produce according to orders received"
+  },
+  {
+    "id": 15,
+    "question": "Production outsourcing consists of:?",
+    "answers": [
+      "entrust the production that was done to another company",
+      "produce yourself"
+    ],
+    "correctAnswer": "entrust the production that was done to another company"
+  },
+  {
+    "id": 16,
+    "question": "Quality is a major issue because:?",
+    "answers": [
+      "it makes it possible to satisfy customers",
+      "It makes it possible to collect information"
+    ],
+    "correctAnswer": "it satisfies customers"
+  },
+  {
+    "id": 17,
+    "question": "The principles of Taylorism are:?",
+    "answers": [
+      "horizontal division of labour / vertical division of labour / performance pay",
+      "Job enrichment / autonomy / versatility"
+    ],
+    "correctAnswer": "horizontal division of labour / division of labour vertical / pay for performance"
+  },
+  {
+    "id": 18,
+    "question": "A rigid organization of work can be characterized by:?",
+    "answers": ["a specialisation of employees", "Employee autonomy"],
+    "correctAnswer": "employee autonomy"
+  },
+  {
+    "id": 19,
+    "question": "Direct supervision is a coordination mechanism:?",
+    "answers": [
+      "where a leader decides and controls",
+      "where members adjust through informal communication"
+    ],
+    "correctAnswer": "where a leader decides and controls"
+  },
+  {
+    "id": 20,
+    "question": "The decentralization of power is characterized by:?",
+    "answers": [
+      "power distributed in several hands",
+      "a power held by a person"
+    ],
+    "correctAnswer": "a power distributed in several hands"
+  }
+]

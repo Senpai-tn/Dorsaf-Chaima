@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "question": "The ______ outside the house said: Private",
+    "answers": ["advice", "label", "notice"],
+    "correctAnswer": "notice"
+  },
+  {
+    "id": 2,
+    "question": "Are you going to ______ your house in London while you are abroad?",
+    "answers": ["dispose", "hire", "let"],
+    "correctAnswer": "hire"
+  },
+
+  {
+    "id": 3,
+    "question": " How unkind of him to ______ to help you!",
+    "answers": ["ignore", "refuse"],
+    "correctAnswer": "refuse"
+  },
+  {
+    "id": 4,
+    "question": "Close the door, please: I dont like sitting in a ______.",
+    "answers": ["blow", "current", "draught"],
+    "correctAnswer": "draught"
+  },
+  {
+    "id": 5,
+    "question": " I had to stand in a ______ for hours to get the tickets for the  performance.",
+    "answers": ["procession", "queue"],
+    "correctAnswer": "queue"
+  },
+  {
+    "id": 6,
+    "question": "When he was a boy his hobby was stamp ______.",
+    "answers": ["assembly", "collecting"],
+    "correctAnswer": "collecting"
+  },
+  {
+    "id": 7,
+    "question": "He lost his ______ and threw a book at me",
+    "answers": ["spirit", "temper"],
+    "correctAnswer": "Dark, widespread, formless layer"
+  },
+  {
+    "id": 8,
+    "question": "I learnt to ______ a bicycle when I was six years old.",
+    "answers": ["ride", "run"],
+    "correctAnswer": "ride"
+  },
+  {
+    "id": 9,
+    "question": "Do as you think best. It doesnt ______ whether he agrees or not.",
+
+    "answers": ["matter", "mind"],
+
+    "correctAnswer": " matter"
+  },
+  {
+    "id": 10,
+    "question": ". I dont think you ve ______ Mrs. Walker before Ill introduce you to her",
+
+    "answers": ["discovered", "found", "known", "met"],
+    "correctAnswer": " met"
+  },
+  {
+    "id": 11,
+    "question": "If the boss sees you doing that, youll get into ______.",
+    "answers": ["struggle", "trouble"],
+    "correctAnswer": "trouble "
+  },
+  {
+    "id": 12,
+    "question": "My husbands at ______. Hell speak to you when he comes home",
+    "answers": ["work ", "works"],
+    "correctAnswer": "work"
+  },
+  {
+    "id": 13,
+    "question": "Its no good asking me to calculate the cost. Im hopeless at ______.",
+    "answers": ["characters", "counters", "figures"],
+    "correctAnswer": "figures"
+  },
+  {
+    "id": 14,
+    "question": "The road was so ______ that the car bounced up and down.",
+    "answers": ["sudden", "uneven"],
+    "correctAnswer": "uneven"
+  },
+  {
+    "id": 15,
+    "question": "You should be ______ of yourself for behaving so badly ",
+    "answers": [" ashamed", "confused ", "disgusted"],
+    "correctAnswer": "disgusted"
+  },
+  {
+    "id": 16,
+    "question": " I ______ an answer to my letter in the next few days.",
+    "answers": ["expect", " hope", "promise"],
+    "correctAnswer": "expect"
+  },
+  {
+    "id": 17,
+    "question": " The car broke down but the ______ in the garage soon fixed it.",
+    "answers": [" mechanic", "motorist"],
+    "correctAnswer": "mechanic"
+  },
+  {
+    "id": 18,
+    "question": "Why are you arresting me? I havent done anything ______.",
+    "answers": ["mistaken ", "wrong"],
+    "correctAnswer": " wrong"
+  },
+  {
+    "id": 19,
+    "question": "Roses are quite ______ flowers in English gardens.",
+    "answers": [" annual", "common"],
+    "correctAnswer": "common "
+  },
+  {
+    "id": 20,
+    "question": "I didnt know his ______ so I couldnt write to him. ",
+    "answers": ["address", "direction", "letter "],
+
+    "correctAnswer": "address"
+  }
+]
